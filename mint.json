@@ -5,14 +5,15 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
+  "backgroundImage": "/backgroundImage.png",
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#D5A829",
+    "light": "#D5A829",
+    "dark": "#655618",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#D5A829",
+      "to": "#655618"
     }
   },
   "topbarLinks": [
@@ -27,25 +28,29 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "The Agency",
+      "url": "agency"
+    },
+    {
+      "name": "Publishing",
+      "url": "publishing"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Crypto-Z – Publishing",
+      "icon": "book-open-reader",
+      "url": "https://crypto-z.com"
     },
     {
-      "name": "Community",
-      "icon": "slack",
+      "name": "Crypto-Z – Agency",
+      "icon": "user-secret",
+      "url": "https://crypto-z.agency"
+    },
+    {
+      "name": "Tell it–Together",
+      "icon": "globe",
       "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
     }
   ],
   "navigation": [
@@ -54,32 +59,37 @@
       "pages": [
         "introduction",
         "quickstart",
-        "development"
+        "acknowledgment"
       ]
     },
     {
       "group": "Essentials",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "essentials/thestory",
+        "essentials/youragent",
+        "essentials/encounters",
+        "essentials/exp",
+        "essentials/artifacts",
+        "essentials/team",
+        "essentials/getinvolved"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "How It Works?",
       "pages": [
-        "api-reference/introduction"
+        "agency/guide/creatures",
+        "agency/guide/auctions",
+        "agency/guide/governance",
+        "agency/guide/treasury",
+        "agency/guide/contracts",
+        "agency/guide/security"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Publishing",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "publishing/creator/platform",
+        "publishing/creator/artifacts"
       ]
     }
   ],
